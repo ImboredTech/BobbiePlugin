@@ -1,0 +1,4 @@
+name: BobbieePlugin
+version: '${project.version}'
+main: xyz.foresthosting.bobbieeplugin.BobbieePlugin
+api-version: 1.19
