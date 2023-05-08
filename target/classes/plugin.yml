@@ -1,0 +1,4 @@
+name: BobbieePlugin
+version: '1.0'
+main: xyz.foresthosting.bobbieeplugin.BobbieePlugin
+api-version: 1.19
