@@ -1,3 +1,8 @@
+###
+# Welcome to the BobbiePlugin config file!
+# Here you may edit certain messages such as join and quit.
+# Anything with % infront of it means its to do with the plugins code and should be left! You can move it but not edit it.
+# Any questions contact our discord discord.gg/comingsoon
 hasnotplayedbefore: Welcome to the server %player we hope you enjoy your stay!
 hasplayedbefore: Welcome back to the server %player!
 quitMessage: Bye Bye %player. We hope to see you again soon!

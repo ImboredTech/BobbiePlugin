@@ -1,4 +1,17 @@
-name: BobbieePlugin
+name: BobbiePlugin
 version: '${project.version}'
 main: xyz.foresthosting.bobbieeplugin.BobbieePlugin
 api-version: 1.19
+commands:
+  gmc:
+    description: Sets yours our the specified players gamemode to creative
+    permission: bobbieplugin.creative
+  gms:
+    description: Sets yours our the specified players gamemode to survival
+    permission: bobbieplugin.survival
+  gmsp:
+    description: Sets yours our the specified players gamemode to spectator
+    permission: bobbieplugin.spectator
+  gma:
+    description: Sets yours our the specified players gamemode to adventure
+    permission: bobbieplugin.adventure
