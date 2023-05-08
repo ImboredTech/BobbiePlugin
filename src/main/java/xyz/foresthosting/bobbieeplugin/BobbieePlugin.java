@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import xyz.foresthosting.bobbieeplugin.events.PlayerJoin;
+import xyz.foresthosting.bobbieeplugin.events.PlayerQuit;
 
 public final class BobbieePlugin extends JavaPlugin
 {
@@ -36,5 +37,6 @@ public final class BobbieePlugin extends JavaPlugin
     {
         Bukkit.getConsoleSender().sendMessage(ChatColor.RED + "Loading Events...");
         getServer().getPluginManager().registerEvents(new PlayerJoin(this), this);
+        getServer().getPluginManager().registerEvents(new PlayerQuit(this), this);
     }
 }
